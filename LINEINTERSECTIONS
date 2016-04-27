@@ -1,0 +1,36 @@
+LINEINTERSECTIONS CHALLENGE
+
+Author
+praran26
+1000
+Given n line segments lying on x-axis with starting points start and end points end, find the number of pairs of lines which overlaps.
+
+Example
+
+For n = 4, start = [8, 4, 6, 1] and end = [10, 9, 7, 2],
+the output should be
+lineIntersections(start,end) = 2.
+
+The two intersecting lines are:
+
+(4, 9) intersects with (6, 7);
+(4, 9) intersects with (8,10).
+For n = 2, start = [1, 2] and end = [3, 4],
+the output should be
+lineIntersections(start, end) = 1.
+
+[input] integer n
+
+The number of line segments, 1 ≤ n ≤ 20.
+
+[input] array.integer start
+
+Array of length n, the starting points of the segments. For each i start[i] ≥ 0.
+
+[input] array.integer end
+
+Array of length n, end[i] is greater than start[i] and is the ending point of the ith line segment.
+
+[output] integer
+
+The number of pairs of overlapping line segments.
